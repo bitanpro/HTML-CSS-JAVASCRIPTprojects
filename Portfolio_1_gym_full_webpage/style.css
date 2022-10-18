@@ -1,0 +1,78 @@
+body{
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    height: 100%;
+    width: 100%;
+}
+.container .nav ul {
+    display: flex;
+    margin: 30px 45px;
+}
+.container .nav ul li a{
+    color: #fff;
+    list-style-type: none;
+    padding: 15px 35px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.container .nav ul li a:hover{
+    color: black;
+    background-color: #fff;
+    transition: 1s;
+    transition-timing-function: ease-out;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container .nav ul .a a{
+    border: 3px solid #fff;
+    margin: 0px 15px;
+    padding: 15px 35px;
+    border-radius: 3px;
+}
+.container .nav ul .b a{
+    border: 3px solid #fff;
+    margin: 0px 15px;
+    padding: 15px 35px;
+    border-radius: 3px;
+}
+.container .nav ul .c a{
+    border: 3px solid #fff;
+    margin: 0px 15px;
+    padding: 15px 35px;
+    border-radius: 3px;
+}
+.container .main h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 62px 181px;
+    font-size: 6rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container .main a input{
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 1px 1px;
+    font-size: 1.8em;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 22px 35px;
+    visibility: visible;
+    background-color: transparent;
+    margin: -70px 1px 1px -755px;
+    border-radius: 3px;
+}
+.container .main a input:hover{
+    color: black;
+    background-color: #fff;
+    transition: 1s;
+    transition-timing-function: ease-out;
+}
+.container .main a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
