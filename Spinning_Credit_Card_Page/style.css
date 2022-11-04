@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("wallpaperflare.com_wallpaper(1).jpg");
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.card .card-front {
+  background-color: #000000;
+  height: 40vh;
+  width: 35vw;
+  margin-top: 25vh;
+  border-radius: 16px;
+  padding-top: 1px;
+  overflow: hidden;
+}
+.card .card-heading {
+  font-family: "Varela Round", sans-serif;
+  color: #fff;
+  margin: 24px 35px;
+  font-size: 30px;
+}
+.card .card-silver-square img {
+  border-radius: 6px;
+  margin-left: 35px;
+  height: 40px;
+  width: auto;
+}
+.card .card-number {
+  font-family: "Kanit", sans-serif;
+  color: #fff;
+  margin-left: 35px;
+  font-size: 35px;
+}
+.card .card-number span.n1 {
+  padding-right: 12px;
+}
+.card .card-number span.n2 {
+  padding-right: 12px;
+}
+.card .card-number span.n3 {
+  padding-right: 12px;
+}
+.card .card-number span.n4 {
+  padding-right: 12px;
+}
+.card .bottom-part {
+  color: #fff;
+  font-size: 8px;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 72px;
+  top: 20px;
+}
+.card .bottom-part2 {
+  font-size: 20px;
+  color: #fff;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -26px;
+  top: -2px;
+}
+.card .visa img {
+  overflow: hidden;
+  height: 30px;
+  width: 90px;
+  position: relative;
+  right: -370px;
+  top: -2px;
+}
+.card .circle1 {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 100%;
+  position: relative;
+  top: -50px;
+  left: 305px;
+}
+.card .circle2 {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 100%;
+  position: relative;
+  top: -100px;
+  left: 266px;
+}
+.card .main-name {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #fff;
+  margin-top: -123px;
+  margin-right: 20px;
+  position: relative;
+  right: -10px;
+}
+.card .card-back {
+  background-color: #000000;
+  height: 40vh;
+  width: 35vw;
+  margin-top: 0vh;
+  border-radius: 16px;
+  padding-top: 1px;
+  overflow: hidden;
+}
+.card .card-back .card-line {
+  background-color: rgb(121, 121, 121);
+  height: 50px;
+  width: 478px;
+  margin: 21px 0px;
+}
+.card .card-back .card-bank {
+  font-family: "Kanit", sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  color: #fff;
+  padding: 0px 10px;
+}
+.card .card-back .card-lorem {
+  font-size: 12px;
+  color: #fff;
+  padding: 0px 10px;
+}
+.card .card-back .cir1 {
+  background-color: #fff;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  position: relative;
+  top: -80px;
+  right: -446px;
+}
+.card .card-back .cir2 {
+  background-color: #fff;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  position: relative;
+  top: -105px;
+  right: -414px;
+}
+.card .card-back .cir3 {
+  background-color: #fff;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  position: relative;
+  top: -130px;
+  right: -382px;
+}
+.card .card-back{
+    position: relative;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    top: -50%;
+}
+.card {
+  animation: spinning 10s infinite linear;
+  transform-style: preserve-3d;
+}
+.card{
+    perspective: 45em;
+}
+@keyframes spinning {
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+body {
+  margin-top: -6vh;
+}
