@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+:root {
+  --primary: rgb(188, 68, 188);
+  --secondary: rgb(68, 200, 200);
+}
+body {
+  background: linear-gradient(100deg, var(--primary), var(--secondary));
+  display: flex;
+  justify-content: center;
+}
+.body-of-the-login-page {
+  box-sizing: border-box;
+  background-color: #fff;
+  /* background-color: black; */
+  height: 76vh;
+  width: 35vw;
+  margin-top: 9vh;
+  border-radius: 20px;
+  filter: opacity(50%);
+  display: flex;
+  justify-content: center;
+}
+.body-of-the-login-page .guest-icon {
+  background: linear-gradient(100deg, var(--primary), var(--secondary));
+  height: 100px;
+  width: 100px;
+  margin-top: 1vh;
+  border-radius: 100%;
+  display: grid;
+  position: fixed;
+  grid-area: inherit;
+}
+.body-of-the-login-page .guest-icon .ball1 {
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  margin-top: 10px;
+  justify-self: center;
+}
+.body-of-the-login-page .guest-icon .ball2 {
+  background-color: #fff;
+  height: 40px;
+  width: 70px;
+  border-radius: 100%;
+  justify-self: center;
+}
+.body-of-the-login-page .heading {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}
+.body-of-the-login-page .heading span {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: "Varela Round", sans-serif;
+  margin: 18vh 0vh;
+}
+.body-of-the-login-page .main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.body-of-the-login-page .main .email input {
+  margin: 6vh 0vh;
+}
+.body-of-the-login-page .main .email input[type="email"] {
+  background-color: #fff;
+  filter: brightness(100%);
+  /* color: #000000; */
+  height: 45px;
+  border: 2px solid purple;
+  padding: 0px 70px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+}
+.body-of-the-login-page .main .password input[type="password"] {
+  background-color: #fff;
+  filter: brightness(100%);
+  /* color: #000000; */
+  height: 45px;
+  border: 2px solid rgb(46, 146, 146);
+  padding: 0px 70px;
+  border-radius: 30px;
+  margin-top: -32px;
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+}
+.body-of-the-login-page .main .checkbox input[type="checkbox"] {
+  position: relative;
+  bottom: -8px;
+}
+.body-of-the-login-page .main .checkbox span {
+  position: relative;
+  top: 8px;
+  left: 5px;
+  font: bolder;
+  font-family: "Varela Round", sans-serif;
+}
+.body-of-the-login-page .main .button a.hola #last {
+  background: linear-gradient(100deg, var(--primary), var(--secondary));
+  filter: brightness(100%);
+  color: #fff;
+  height: 45px;
+  border-radius: 30px;
+  margin-top: 17px;
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+  position: relative;
+  left: 77px;
+  padding-left: 148px;
+  padding-right: 155px;
+  margin: 17px -73px 1px;
+  border: 1px solid rgb(73, 18, 118);
+}
