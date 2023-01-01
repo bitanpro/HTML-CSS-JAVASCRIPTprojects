@@ -90,6 +90,7 @@ body {
 .body-of-the-login-page .main .checkbox input[type="checkbox"] {
   position: relative;
   bottom: -8px;
+  cursor: pointer;
 }
 .body-of-the-login-page .main .checkbox span {
   position: relative;
