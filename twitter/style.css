@@ -41,6 +41,12 @@ div.container div.box div.content div.button1 button {
   margin: 33px;
   border-radius: 40px;
   border: 0px;
+  cursor: pointer;
+}
+div.container div.box div.content div.button1 button:hover{
+  filter: opacity(100%);
+  filter: brightness(100%);
+  background-color: #fff;
 }
 div.container div.box div.content div.button1 img {
   top: 1px;
@@ -73,6 +79,12 @@ div.container div.box div.content div.button2 button.button2 {
   border-radius: 40px;
   opacity: 1000%;
   border: 0px;
+  cursor: pointer;
+}
+div.container div.box div.content div.button2 button.button2:hover{
+  filter: opacity(100%);
+  filter: brightness(100%);
+  background-color: #fff;
 }
 div.container div.box div.content div.button2 button.button2 a {
   font-size: 13px;
@@ -86,9 +98,9 @@ div.container div.box div.content div.button2 button.button2 a {
 }
 div.container div.box div.content div.or hr.hr1 {
   position: relative;
-  height: -26.5px;
+  height: 0px;
   width: 132px;
-  top: 19px;
+  top: 20px;
   left: -80px;
   color: grey;
 }
@@ -112,7 +124,7 @@ div.container div.box div.content div.input input.input1 {
   margin: -4px;
   color: #fff;
   background-color: black;
-  border: 1px solid grey;
+  border: 1px solid rgb(90, 88, 88);
   border-radius: 5px;
 }
 div.container div.box div.content div.next button.button3 {
@@ -120,6 +132,12 @@ div.container div.box div.content div.next button.button3 {
   width: 315px;
   border-radius: 40px;
   margin: 30px;
+  cursor: pointer;
+}
+div.container div.box div.content div.next button.button3:hover{
+  filter: opacity(100%);
+  filter: brightness(100%);
+  background-color: #fff;
 }
 div.container div.box div.content div.next button.button3 a {
   font-size: 14px;
@@ -135,6 +153,7 @@ div.container div.box div.content div.forgotpassword button.button4 {
   color: #fff;
   background-color: black;
   border: 0.1px solid grey;
+  cursor: pointer;
 }
 div.container div.box div.content div.forgotpassword button.button4 a {
   text-decoration: none;
@@ -161,4 +180,8 @@ div.container div.box div.content div.signup a.S {
   top: 45px;
   left: -40px;
   font-weight: 200;
+  cursor: pointer;
+}
+div.container div.box div.content div.signup a.S:hover{
+  text-decoration: underline;
 }
